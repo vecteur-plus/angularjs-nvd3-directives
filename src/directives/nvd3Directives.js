@@ -165,6 +165,7 @@
                     };
                 }],
                 link: function(scope, element, attrs){
+					scope.$on("redrawNVD3", function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('width + height', function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('data', function(data){
                         if (data && angular.isDefined(scope.filtername) && angular.isDefined(scope.filtervalue)) {
@@ -319,6 +320,7 @@
                     };
                 }],
                 link: function(scope, element, attrs){
+					scope.$on("redrawNVD3", function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('width + height', function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('data', function(data){
                         if (data && angular.isDefined(scope.filtername) && angular.isDefined(scope.filtervalue)) {
@@ -483,6 +485,7 @@
                     };
                 }],
                 link: function(scope, element, attrs){
+					scope.$on("redrawNVD3", function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('width + height', function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('data', function(data){
                         if (data && angular.isDefined(scope.filtername) && angular.isDefined(scope.filtervalue)) {
@@ -680,6 +683,7 @@
                     };
                 }],
                 link: function(scope, element, attrs){
+					scope.$on("redrawNVD3", function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('width + height', function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('data', function(data){
                         if (data && angular.isDefined(scope.filtername) && angular.isDefined(scope.filtervalue)) {
@@ -822,6 +826,7 @@
                     };
                 }],
                 link: function(scope, element, attrs){
+					scope.$on("redrawNVD3", function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('width + height', function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('data', function(data){
                         if (data && angular.isDefined(scope.filtername) && angular.isDefined(scope.filtervalue)) {
@@ -964,6 +969,7 @@
                     };
                 }],
                 link: function(scope, element, attrs){
+					scope.$on("redrawNVD3", function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('width + height', function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('data', function(data){
                         if (data && angular.isDefined(scope.filtername) && angular.isDefined(scope.filtervalue)) {
@@ -1106,6 +1112,7 @@
                     };
                 }],
                 link: function(scope, element, attrs){
+					scope.$on("redrawNVD3", function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('width + height', function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('data', function(data){
                         if (data && angular.isDefined(scope.filtername) && angular.isDefined(scope.filtervalue)) {
@@ -1210,6 +1217,7 @@
                     };
                 }],
                 link: function(scope, element, attrs){
+					scope.$on("redrawNVD3", function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('width + height', function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('data', function(data){
                         if (data && angular.isDefined(scope.filtername) && angular.isDefined(scope.filtervalue)) {
@@ -1370,6 +1378,7 @@
                     };
                 }],
                 link: function(scope, element, attrs){
+					scope.$on("redrawNVD3", function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('width + height', function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('data', function(data){
                         if (data && angular.isDefined(scope.filtername) && angular.isDefined(scope.filtervalue)) {
@@ -1570,6 +1579,7 @@
                     };
                 }],
                 link: function(scope, element, attrs){
+					scope.$on("redrawNVD3", function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('width + height', function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('data', function(data){
                         if (data && angular.isDefined(scope.filtername) && angular.isDefined(scope.filtervalue)) {
@@ -1742,6 +1752,7 @@
                     };
                 }],
                 link: function(scope, element, attrs){
+					scope.$on("redrawNVD3", function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('width + height', function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('data', function(data){
                         if (data && angular.isDefined(scope.filtername) && angular.isDefined(scope.filtervalue)) {
@@ -1942,6 +1953,7 @@
                     };
                 }],
                 link: function(scope, element, attrs){
+					scope.$on("redrawNVD3", function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('width + height', function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('data', function(data){
                         if (data && angular.isDefined(scope.filtername) && angular.isDefined(scope.filtervalue)) {
@@ -2052,6 +2064,7 @@
                     };
                 }],
                 link: function(scope, element, attrs){
+					scope.$on("redrawNVD3", function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('width + height', function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('data', function(data){
                         if (data && angular.isDefined(scope.filtername) && angular.isDefined(scope.filtervalue)) {
@@ -2133,6 +2146,7 @@
                     };
                 }],
                 link: function(scope, element, attrs){
+					scope.$on("redrawNVD3", function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('width + height', function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('data', function(data){
                         if (data && angular.isDefined(scope.filtername) && angular.isDefined(scope.filtervalue)) {
@@ -2292,6 +2306,7 @@
                     };
                 }],
                 link: function(scope, element, attrs){
+					scope.$on("redrawNVD3", function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('width + height', function() { updateDimensions(scope,attrs,element,scope.chart); });
                     scope.$watch('data', function(data){
                         if (data && angular.isDefined(scope.filtername) && angular.isDefined(scope.filtervalue)) {
